@@ -5,7 +5,7 @@ from . import views
 urlpatterns = [
     url(r'^$', 'apps.budget.views.index', name=''),
 
-    url(r'index.html$', 'apps.budget.views.index', name='index'),
+    url(r'index.html/$', 'apps.budget.views.index', name='index'),
 
     url(r'index-rtl.html$', 'apps.budget.views.index_rtl', name='index'),
 
